@@ -2,6 +2,9 @@
 
 This project aims to extract information and generate metrics from a given Instagram Profile and store it in a Google Spreadsheet at Drive, in order to feed these worksheets as data sources into a Google Data Studio Dashboard.
 
+You can check a more detailed explanation at this Medium Article:
+- [Web Scraping Instagram to build your own profile’s dashboard — With Instaloader and Google Data Studio](https://medium.com/@felipe.p.adachi/web-scraping-instagram-to-build-your-own-profiles-interactive-dashboard-with-instaloader-and-42141575e009)
+
 To run this application, you should have:
 - a Google account to use Drive. The dashboard building process at Data Studio is not covered in this project, but the google account is also needed if you want to use the metrics generated here to create the dashboard at Google Data Studio.
 - an Imgur Account. The dashboard uses some images (for the profile pic and the wordcloud). At the time, I was not able to use an image URL at the drive itself, so I created an Imgur account to host the uploaded images.
